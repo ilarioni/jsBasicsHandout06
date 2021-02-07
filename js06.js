@@ -17,3 +17,12 @@ if (time > 12) {
 } else {
     return console.log("prepare for lunch");
 }
+
+var day = 1;
+if (day >= 6) {
+    return console.log("it's a weekend soon");
+} else if (day >= 3) {
+    return console.log("it's a middle of the week");
+} else {
+    return console.log("It's a beginning of the week");
+}
