@@ -26,3 +26,15 @@ if (day >= 6) {
 } else {
     return console.log("It's a beginning of the week");
 }
+
+function myFunction(time) {
+    var greeting = "";
+    if (time < 10) {
+        return greeting = "Good morning";
+    } else if (time < 20) {
+        return greeting = "Good day";
+    } else {
+        return greeting = "Good evening";
+    }
+}
+console.log(myFunction(21));
