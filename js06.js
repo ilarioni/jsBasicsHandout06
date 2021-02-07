@@ -85,3 +85,16 @@ switch (new Date().getDay()) {
 }
 
 console.log(text);
+
+var x = 1;
+switch (x) {
+    case 0:
+        ans = "off";
+        break;
+    case 1:
+        ans = "on";
+        break;
+    default:
+        ans = "No value found";
+}
+console.log(ans);
